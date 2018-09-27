@@ -1,0 +1,75 @@
+    <!DOCTYPE html>
+    <!--[if IE 8]> <html lang="fr" class="ie8"> <![endif]-->
+    <!--[if IE 9]> <html lang="fr" class="ie9"> <![endif]-->
+    <!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->
+    <!-- Source : https://codepen.io/mackorichardson/pen/vNMRpK -->
+    <head>
+        <title>SWAPI</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="SWAPI">
+        <meta name="author" content="Setebos">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="overlay"></div>
+        <div class="scanline"></div>
+        <div id="display" class="wrapper">   
+            <div class="content clearfix">
+                <header class="site clearfix">
+                    <div class="col one">
+                        <img src="img/logo.png" id="logo-v" />
+                    </div>
+                    <div class="col two">
+                        <h4>3615 WOOKIE</h4>
+                        <p>----------------------------------------</p>
+                        <p>- Star Wars Database -</p>
+                    </div>
+                </header>
+
+                <div id="swapi-content">
+
+                    <p class="clear"><br /></p>
+
+                    <p class="intro">Select a category</p>
+
+                    <div class="row">
+                        <p>1 - Planets</p>
+                    </div>
+
+                    <div class="row">
+                        <p>2 - Vehicles</p>
+                    </div>
+
+                    <div class="row">
+                        <p>3 - Spaceships</p>
+                    </div>
+
+                    <div class="row">
+                        <p>4 - Characters</p>
+                    </div>
+
+                    <div class="row">
+                        <p>5 - Species</p>
+                    </div>
+
+                </div>
+
+                <form id="input-form" class="home-input">
+                    <label>Input >></label><input type="text" id="input-text" autocomplete="off"/><br />
+                </form>
+
+                <div id="instructions"></div>
+
+            </div>
+        </div>
+    </body>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    </html>
+

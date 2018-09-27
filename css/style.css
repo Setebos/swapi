@@ -175,7 +175,7 @@ nav.site ul li {
 .col.two { width: auto; }
 
 .wrapper {
-  animation: scroll 5s 1;
+  animation: scroll 15s 1;
   margin: 0;
   overflow: hidden;
   padding: 0;
